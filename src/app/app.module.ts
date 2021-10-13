@@ -17,7 +17,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from '../environments/environment';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
@@ -27,7 +27,7 @@ import { UserDetailComponent } from './user-detail/user-detail.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { DialogEditAddressComponent } from './dialog-edit-address/dialog-edit-address.component';
 import { DialogEditUserComponent } from './dialog-edit-user/dialog-edit-user.component';
-import { OrganisationComponent } from './organisation/organisation.component';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +38,7 @@ import { OrganisationComponent } from './organisation/organisation.component';
     UserDetailComponent,
     DialogEditAddressComponent,
     DialogEditUserComponent,
-    OrganisationComponent
+
   ],
   imports: [
     BrowserModule,
@@ -60,6 +60,8 @@ import { OrganisationComponent } from './organisation/organisation.component';
     MatProgressBarModule,
     MatCardModule,
     MatMenuModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
