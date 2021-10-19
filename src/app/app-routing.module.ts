@@ -6,12 +6,9 @@ import { UserComponent } from './user/user.component';
 
 
 const routes: Routes = [
-  { path: 'user', component: UserComponent },
-  { path: 'dashboard', component: DashboardComponent },
+  { path: '', component: UserComponent },
   { path: 'user', component: UserComponent },
   { path: 'user/:id', component: UserDetailComponent },
-
-
 ];
 
 @NgModule({

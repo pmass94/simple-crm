@@ -12,7 +12,8 @@ export const environment = {
     storageBucket: "simple-crm-59865.appspot.com",
     messagingSenderId: "1076196785605",
     appId: "1:1076196785605:web:eee98bf86014cad10fdfac"
-  }
+  },
+
 };
 /*
  * For easier debugging in development mode, you can import the following file
