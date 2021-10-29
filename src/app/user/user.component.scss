@@ -49,3 +49,19 @@ mat-card {
         font-size: 12px;
     }
 }
+
+@media (max-width: 600px){
+    .user-table tr td{
+        font-size: 12px;
+        &:last-child{
+            display: none;
+        }
+    }
+
+    .user-table tr th{
+        font-size: 12px;
+        &:last-child{
+              display: none;
+        }
+    }
+}
